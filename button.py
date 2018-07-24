@@ -4,6 +4,10 @@ def sumar():
 	r.set(float(n1.get()) + float(n2.get()))
 	borrar()
 
+def restar():
+	r.set(float(n1.get())) - float(n2.get())
+	borrar()
+
 def borrar():
 	n1.set("")
 	n2.set("")
